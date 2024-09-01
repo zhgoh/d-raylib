@@ -1,0 +1,16 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/draylib
+draylib.so
+draylib.dylib
+draylib.dll
+draylib.a
+draylib.lib
+draylib-test-*
+*.exe
+*.pdb
+*.o
+*.obj
+*.lst
