@@ -14,3 +14,5 @@ draylib-test-*
 *.o
 *.obj
 *.lst
+raylib.dll
+raylib.lib
