@@ -1,1 +1,25 @@
-{"libs" : ["raylib"], "lflags-posix" : ["-L."], "lflags-osx" : ["-rpath", "@executable_path/"], "lflags-linux" : ["-rpath=$$ORIGIN"], "description" : "A minimal D application.", "name" : "draylib", "dependencies" : {"raylib-d" : "~>5.0.1"}, "authors" : ["zhgoh"], "copyright" : "Copyright © 2024, zhgoh", "license" : "MIT"}
+{
+	"authors": [
+		"zhgoh"
+	],
+	"copyright": "Copyright © 2024, zhgoh",
+	"dependencies": {
+		"raylib-d": "~>5.0.1"
+	},
+	"description": "A minimal D application.",
+	"lflags-linux": [
+		"-rpath=$$ORIGIN"
+	],
+	"lflags-osx": [
+		"-rpath",
+		"@executable_path/"
+	],
+	"lflags-posix": [
+		"-L."
+	],
+	"libs": [
+		"raylib"
+	],
+	"license": "MIT",
+	"name": "draylib"
+}
