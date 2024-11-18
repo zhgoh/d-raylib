@@ -4,8 +4,10 @@ void main()
 {
     // call this before using raylib
     validateRaylibBinding();
+
     InitWindow(800, 600, "Hello, Raylib-D!");
     SetTargetFPS(60);
+
     while (!WindowShouldClose())
     {
         BeginDrawing();
